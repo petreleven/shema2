@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-vz2b_evbdt@(3$lp@7k-i=##_3*4-t8((8(e+$8tmlbfx*(j+b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["shema2-production.up.railway.app"]
 
 
 # Application definition
@@ -124,3 +124,4 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+CSRF_TRUSTED_ORIGINS=["https://shema2-production.up.railway.app"]
